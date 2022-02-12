@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvLiveData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!" />
+
+        <Button
+            android:id="@+id/btnLivedata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Livedata"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/tvStateFlow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/btnStateFlow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="State Flow"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/tvFlow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/btnFlow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Flow"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/tvSharedFlow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/btnSharedFlow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shared Flow"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
